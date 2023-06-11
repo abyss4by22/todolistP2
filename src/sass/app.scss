@@ -1,0 +1,81 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.page-2-header {
+height: 70px;
+background-color:rgb(57, 61, 63);
+display: flex;
+justify-content: space-evenly;
+align-items:center ;
+}
+.page-2-header h2 {
+  color: rgb(255, 224, 181);
+}
+body{
+  margin: 0;
+  padding: 0;
+  background:rgb(154, 173, 191);
+}
+#inputSec{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+#inputP2{
+  border: 0;
+}
+#inputP2:focus{
+  border: 0;
+}
+#inputBtnP2,#addColBtn{
+  padding:  7px 10px;
+  border:0;
+  background-color: rgb(178, 13, 48);
+  color: white;
+}
+
+// column
+#colSec{
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.column{
+  min-width: 25%;
+  width: fit-content;
+  background-color:rgb(57, 61, 63);
+  height: fit-content;
+  min-height: 200px;
+  border: 2px solid rgb(255, 224, 181);
+}
+.headerColDiv{
+  height: 20%;
+  border-bottom: 2px solid rgb(255, 224, 181);
+}
+
+//  taskdiv 
+
+.mainTaskDiv {
+  margin: 7px 0;
+  width: 90%;
+  min-height: 90px;
+  height: fit-content;
+  background: rgb(154, 173, 191);
+}
+.btnDiv{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+// task buttons
+
+.taskBtn{
+  border:0;
+  padding: 5px 10px;
+
+}
